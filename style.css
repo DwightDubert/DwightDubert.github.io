@@ -1,0 +1,170 @@
+/*
+#7EFFF9
+#7EC5FF
+#7E85FF
+*/
+/*
+#00E1D6
+#007CE1
+#000BE1
+*/
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lobster&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+img{
+    position: relative;
+    width: 100vw;
+    margin-top: 10vh;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    align-items: center;
+    background-color: #007CE1;
+    width: 100vw;
+    height: 10vh;
+    top: 0;
+    z-index: 1;
+}
+.nav:hover{
+    transition-duration: 1s;
+    height: 15vh;
+    font-size: 24px;
+}
+.nav{
+    transition-duration: 1s;
+    height: 10vh;
+    font-size: 16px;
+}
+#about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 40vh;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+    color: blanchedalmond;
+    font-family: 'Lobster', cursive;
+}
+#about p{
+    margin-top: 5vh;
+    max-width: 30vw;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+h4{
+    border-top: gray solid 1px;
+    border-bottom: lightgray solid 2px;
+    border-left: gray solid 1px;
+    border-right: lightgray solid 2px;
+    background-color: #7e85ff;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: 'Lobster', cursive;
+}
+h4:hover{
+    border-bottom: gray solid 1px;
+    border-top: lightgray solid 2px;
+    border-right: gray solid 1px;
+    border-left: lightgray solid 2px;
+    background-color: #7e85ff;
+    border-radius: 5px;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#ach{
+    border-bottom: black solid 1px;
+}
+.achIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.HTML{
+    text-align: center;
+    max-width: 20vw;
+}
+.HTML i{
+    font-size: 250px;
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+}
+.BTSP{
+    text-align: center;
+    max-width: 20vw;
+}
+.BTSP i{
+    font-size: 250px;
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+}
+.WEB{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2vh;
+}
+.WEB img{
+    width: 50vw;
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+    transition-duration: 1s;
+}
+h5{
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 5vh;
+    font-size: 35px;
+    font-family: 'Lobster', cursive;
+}
+#contact{
+    text-align: center;
+}
+h3{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    font-size: 35px;
+    font-family: 'Lobster', cursive;
+}
+#contact i{
+    margin: 1vh;
+    font-size: 80px;
+    
+}
+p{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+body{
+    background: linear-gradient(0deg, rgba(126,133,255,1) 0%, rgba(0,124,225,1) 100%);
+    transition: all 3s ease-out 1s;
+}
+.BTSP i:hover, .WEB i:hover, .HTML i:hover{
+    transition-duration: 1s;
+    font-size: 300px;
+}
+.BTSP i, .HTML i{
+    transition-duration: 1s;
+    font-size: 250px;
+}
+.WEB img:hover{
+    width: 55vw;
+}
